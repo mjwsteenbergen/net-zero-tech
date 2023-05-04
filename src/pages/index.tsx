@@ -14,7 +14,7 @@ export default function Home() {
       <section className='bg-blue-600 m-0 flex flex-col items-center justify-center p-4'>
         <h2>Amazingly reviewed</h2>
         <div className='p-2'>
-          <p><i>{"Amazing"}</i></p>
+          <p><i>{"\"Amazing\""}</i></p>
           <p> - Martijn</p>
         </div>
       </section>
@@ -27,7 +27,7 @@ export default function Home() {
       </section>
       <section className='bg-blue-600 flex flex-col justify-center items-center'>
         <h2>Listen to a preview, right here, right now</h2>
-        <p>//TODO insert play icon and maybe sound component? The default audio seems good https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio</p>
+        <p>{"//TODO insert play icon and maybe sound component? The default audio seems good https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"}</p>
       </section>
       <section className='bg-blue-800 h-96 flex flex-col justify-center items-center'>
         <h2 className='text-blue-50'>Listen now!</h2>
