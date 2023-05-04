@@ -1,0 +1,14 @@
+.about {
+    display: grid;
+}
+
+.about_img {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.about_text {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: flex-end;
+}
