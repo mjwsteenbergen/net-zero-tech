@@ -14,12 +14,12 @@ export default function Home() {
       <section className='bg-blue-600 m-0 flex flex-col items-center justify-center p-4'>
         <h2>Amazingly reviewed</h2>
         <div className='p-2'>
-          <p><i>"Amazing"</i></p>
+          <p><i>{"Amazing"}</i></p>
           <p> - Martijn</p>
         </div>
       </section>
       <section className={'m-6 overflow-hidden rounded-xl ' + css.about}>
-        <img className={'' + css.about_img} src="https://www.some.ox.ac.uk/wp-content/uploads/2022/07/Snigdha-Lal-1.jpeg" alt=""></img>
+        <Image className={'' + css.about_img} src="https://www.some.ox.ac.uk/wp-content/uploads/2022/07/Snigdha-Lal-1.jpeg" alt=""></Image>
         <div className={'bg-black bg-opacity-50 p-5 ' + css.about_text}>
           <h2 className='text-blue-100'>Created by <b>Snigdha Lal</b></h2>
           <p className='text-blue-100 text-xs font-semibold'>Sustainability, especially sustainable energy development, has always been an issue in which I have found my purpose. Coming all the way from India... </p>
