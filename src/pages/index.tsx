@@ -28,7 +28,7 @@ export default function Home() {
       </section>
       <section className='bg-greenpri-600 flex flex-col justify-center items-center p-10'>
         {/* <h2 className='text-3xl'>Listen to the first episode right here, right now</h2> */}
-        <iframe className='max-w-3xl' style="border-radius:12px" src="https://open.spotify.com/embed/episode/4C5zFiNOTilZBaXPTtyhpR?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe className='max-w-3xl rounded-xl' src="https://open.spotify.com/embed/show/1QnbhsHHYsZAGG1cl7zUhS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </section>
       <section className='bg-greenpri-300 h-96 flex flex-col justify-center items-center'>
         <h2 className='text-greenpri-50 sm:text-5xl sm:p-5'>Listen now!</h2>
